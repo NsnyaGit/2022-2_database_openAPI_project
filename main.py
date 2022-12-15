@@ -268,7 +268,7 @@ class Ui_MainWindow(object):
         self.priceText.append(f'최저가 : {lowest_price}달러')
         self.priceText.append(f'최저가 : {int(lowest_price * lowest_exchange)}원')
         self.priceText.append(f"환율 : {lowest_exchange}")
-        self.priceText.append('-' * 18)
+        self.priceText.append('-' * 15)
 
         texts, is_on_sale = saleInfo(cur_date)
         for i in texts:
